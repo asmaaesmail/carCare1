@@ -2377,7 +2377,7 @@ div#nav-icon1.open span {
 	background-color: #fff;
 	width: 90%;
 	margin: auto;
-	padding: 40px 0px
+	padding: 25px 0px
 }
 
 @media screen and (min-device-width:320px) and (max-device-width: 600px) {
@@ -2419,9 +2419,23 @@ div#nav-icon1.open span {
 	margin: 20px 0
 }
 
+.sec1-p-content  {
+	font-weight: bold;
+	font-size: 20px;
+    text-decoration: none
+}
+.sec1-p-content:hover {
+	
+    text-decoration: none
+}
+a.offer-h2{
+    text-decoration: none
+}
 .sec1-p-content h2 {
 	font-weight: bold;
-	font-size: 20px
+	font-size: 20px;
+    color: #000
+   
 }
 
 .edite-size {
@@ -2539,8 +2553,9 @@ div#nav-icon1.open span {
 	letter-spacing: 5px;
 	color: #ca9746;
 }
-
-
+h2.offer-h2.edite-size {
+    color: #c28735;
+}
 /***********************************************************/
 
 
@@ -2742,7 +2757,7 @@ content-p-owl {}
     text-decoration: none
 }
 .owl-carousel .owl-stage-outer {
-	height: 385px;
+	height: 367px;
 }
 
 .owl-dots {
